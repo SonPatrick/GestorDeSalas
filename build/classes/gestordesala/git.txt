@@ -22,4 +22,5 @@ Regras:
 3. Abrir a pasta GitProjects no VS Code;
 4. Ir ao Github da Uni-Santech
 5. git clone https://github.com/Uni-SanTech/GestorDeSalas.git
-6. dir
+6. dir 
+7. git pull
