@@ -1,16 +1,25 @@
-…or create a new repository on the command line
+Instalacao: 
+git --version
+git config --global user.email "seu@email.com"
+git config --global user.name "SeuNome"
+git config --global --list
 
-echo "# GestorDeSalas" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Uni-SanTech/GestorDeSalas.git
-git push -u origin main
+Regras:
+1. Proibido git push -u origin main SEM ANTES FAZER GIT COMMIT -M """
+2. Proibido fazer git merge na branch MAIN
+3. Usar commits semanticos:
+    FIX : usar para corrigir algum bug
+    FEAT : usar para inserir nova funcionalidade
+    REFACT : usar para melhorar algum trecho de código ou algoritmo
+    TEST : usar para quando for código de/para teste 
 
+    Exemplo:
+    (nao semantico) : git commit -m "Corrigi uma funcionalidade"
+    (semanticos) : git commit -m "FIX" -m "Corrigida a funcionalidade de listar salas"
 
-…or push an existing repository from the command line
-
-git remote add origin https://github.com/Uni-SanTech/GestorDeSalas.git
-git branch -M main
-git push -u origin main
+1. Entrar na pasta Documentos (Windows + E);
+2. Criar pasta GitProjects (ctrl + shift + N);
+3. Abrir a pasta GitProjects no VS Code;
+4. Ir ao Github da Uni-Santech
+5. git clone https://github.com/Uni-SanTech/GestorDeSalas.git
+6. dir
